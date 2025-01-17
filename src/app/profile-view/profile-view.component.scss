@@ -12,7 +12,7 @@ h2 {
   text-align: center;
   margin-bottom: 1.5rem;
   font-size: 1.8rem;
-  color: #d9534f; // Red color
+  color: #4f7fd9; 
 }
 
 .profile-info p {
@@ -38,7 +38,7 @@ h2 {
 }
 
 .form-control:focus {
-  border-color: #d9534f; // Red focus
+  border-color: #d9534f; 
   outline: none;
   box-shadow: 0 0 5px rgba(217, 83, 79, 0.5);
 }
@@ -63,30 +63,30 @@ button {
 }
 
 .btn-primary {
-  background-color: #d9534f; // Red button
+  background-color: #4f86d9; 
   color: #fff;
 }
 
 .btn-primary:hover {
-  background-color: #c9302c; // Darker red on hover
+  background-color: #6ba345; 
 }
 
 .btn-success {
-  background-color: #d9534f; // Green for save
+  background-color: #d9534f; 
   color: #fff;
 }
 
 .btn-success:hover {
-  background-color: #62af2f; // Darker green on hover
+  background-color: #62af2f; 
 }
 
 .btn-secondary {
-  background-color: #6c757d; // Grey for cancel
+  background-color: #6c757d; 
   color: #fff;
 }
 
 .btn-secondary:hover {
-  background-color: #5a6268; // Darker grey on hover
+  background-color: #5a6268; 
 }
 
 .form-actions {
@@ -96,17 +96,18 @@ button {
 }
 
 .btn-danger {
-  background-color: #d9534f; // Red color
+  background-color: #d9534f; 
   color: #fff;
 }
 
 .btn-danger:hover {
-  background-color: #c9302c; // Darker red on hover
+  background-color: #c9302c; 
 }
 
 .favorite-movies-section {
   text-align: center;
   margin: 20px auto;
+  min-height: 285px;
 
   .movies-grid {
     display: grid;
@@ -144,7 +145,7 @@ button {
 
   mat-card-actions mat-icon {
     font-size: 1.5em;
-    color: #f44336; /* Color for the favorite icon */
+    color: #f44336; 
   }
 
   mat-icon {

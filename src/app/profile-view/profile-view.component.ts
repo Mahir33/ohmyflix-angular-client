@@ -80,6 +80,15 @@ export class ProfileViewComponent implements OnInit {
     });
   }
 
+  editUser(): void {
+    this.editUserService.editUser(this.editForm.value).subscribe((resp: any) => {
+      this.snackBar.open('User data updated successfully', 'OK', {
+        duration: 2000,
+      });
+      this.getUserData(); // Refresh user data
+    });
+  }
+
   /**
    * Enables editing of user data.
    */
