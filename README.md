@@ -1,7 +1,7 @@
 
-# myFlix Angular App
+# ohMyFlix Angular App
 
-This repository contains the **myFlix Angular App**, a client-side application built with Angular to provide users with a visually appealing and responsive interface for browsing movies. It consumes a RESTful API to fetch and display movie data, allowing users to manage their movie favorites and view details about movies, directors, and genres.
+This repository contains the **ohMyFlix Angular App**, a client-side application built with Angular to provide users with a visually appealing and responsive interface for browsing movies. It consumes a RESTful API to fetch and display movie data, allowing users to manage their movie favorites and view details about movies, directors, and genres.
 
 ---
 
@@ -17,13 +17,13 @@ This repository contains the **myFlix Angular App**, a client-side application b
 ---
 
 ## Project Overview
-The **myFlix Angular App** allows users to access a movie database with features such as:
+The **ohMyFlix Angular App** allows users to access a movie database with features such as:
 - Viewing a list of movies with details.
 - Exploring information about movie directors and genres.
 - Adding or removing movies to/from their favorites list.
 - Updating their user profile information.
 
-This application is built using Angular, a robust front-end framework, and integrates with the **myFlix API** backend.
+This application is built using Angular, a robust front-end framework, and integrates with the **ohMyFlix API** backend.
 
 ---
 
@@ -47,12 +47,12 @@ This application is built using Angular, a robust front-end framework, and integ
 ---
 
 ## Setup and Installation
-Follow these steps to run the myFlix Angular App locally:
+Follow these steps to run the ohMyFlix Angular App locally:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/kittykatkaro/myFlix-Angular.git
-   cd myFlix-Angular
+   git clone https://github.com/Mahir33/ohmyflix-angular-client
+   cd ohmyflix-angular-client
    ```
 
 2. **Checkout the correct branch**:
@@ -89,9 +89,5 @@ This project is licensed under the **MIT License**.
 ---
 
 ## Author
-**Kittykatkaro**  
-[GitHub Profile](https://github.com/kittykatkaro)  
-
----
-
-Thank you for checking out the myFlix Angular App! 🎥✨
+**Mahir33**  
+[GitHub Profile](https://github.com/Mahir33)  
